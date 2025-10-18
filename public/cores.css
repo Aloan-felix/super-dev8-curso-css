@@ -1,10 +1,10 @@
 /*Css reset */
-body{
-    margin:0;
-    pading:0;
+body {
+    margin: 0;
+    pading: 0;
 }
 
-h2{
+h2 {
     /*
     definir a cor do texto utilizando rgb (red, green, blue)
 R => 0. .255 
@@ -12,19 +12,21 @@ G => 0. .255
 B => 0. .255
     */
 
-    color: rgb(26, 216, 92); 
-}
-div{
-    background-color: blue;
-}
-a {
-    color: #FFFFFF;
-    /* text- decoration altera a decoração do texto nome faz com que o
-    texto não tenha nenhuma decoração */
-    text-decoration: none;
+    color: rgb(26, 216, 92);
 }
 
- /* hover é a ação que ocorre quando passar o mouse por cima do elemento */
- a:hover{
-    color: #ff6500;
- }
+div {
+    background-color: blue;
+
+    a {
+        color: #FFFFFF;
+        /* text- decoration altera a decoração do texto nome faz com que o
+        texto não tenha nenhuma decoração */
+        text-decoration: none;
+    }
+
+    /* hover é a ação que ocorre quando passar o mouse por cima do elemento */
+    a:hover {
+        color: #ff6500;
+    }
+}
