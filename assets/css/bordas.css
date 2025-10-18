@@ -1,0 +1,112 @@
+
+.demonstracao{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+
+/*
+top => parte cima
+right => direita
+bottom => parte baixo
+left => esquerda
+*/
+
+
+.borda-solid{
+    /* top=> borda da parte de cima */
+    border-top-style: solid;
+    border-top-color: #000;
+    border-top-width: 1px;
+
+    /* right => borda da parte direita */
+    border-right-style: solid;
+    border-right-color: #000;
+    border-right-width: 1px;
+
+    /* bottom => parte baixo */
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-bottom-width: 1px;
+
+    /* left => esquerda */
+    border-left-style: solid;
+    border-left-color: #000;
+    border-left-width: 1px;
+}
+.borda-dashed{
+
+    /*border-top-style: solid;
+    border-top-color: #000;
+    border-top-width 1px; */
+
+    /* Shrosthan */
+    border-top: 4px solid #f59e0b;
+    border-right: 4px solid #f59e0b;
+    border-bottom: 4px solid #f59e0b;
+    border-left: 4px solid #f59e0b;
+}
+
+.borda-dotted{
+    /* cima, direita, baixa, esquerda */
+    border-width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted;
+    border-color: #ef4444 #ef4444 #ef4444 #ef4444;
+}
+
+.borda-double{
+    /*cima/baixo (6px), direita/esquerda (8px) */
+    border-width: 6px 8px;
+    border-color: #7c3ead; /* cimda/direita/baixo/esquerda*/
+    border-style: double;
+}
+
+.borda-groove{
+    /*cima/direita/baixo/esquerda*/
+    /*border-width: 8px;
+    border-color: #3b2f6;
+    border-style: groove; */
+    border: 8px #3b82f6 groove;
+
+}
+.borda-ridge{
+
+    border-width: 8px;
+    border-color: #10b391; 
+    border-style: ridge;
+
+}
+.borda-inset{
+    
+    border: 8px #ec4899 inset;
+    
+}
+.borda-outset{
+    border: 8px #eab308 outset ;
+}
+
+
+.borda-radius-diferente{
+    border: 8px #b8b195 solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 40px;
+}
+
+.borda-radius-diferente:hover{
+    border-color: #6e6a59;
+    cursor: pointer;
+}
+
+.borda-radius-iguais{
+    border: 4px #12Ab23 dashed;
+    border-radius: 100px;
+}
+
+
+
